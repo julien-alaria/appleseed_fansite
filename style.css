@@ -787,8 +787,15 @@ footer {
   }
 
   #heading h1 {
-    margin-top: 120px;
+    margin-top: 150px;
   }
+
+  #games {
+    grid-column: 1 / -1; 
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
 }
 
 @media screen and (max-width: 399px) {
@@ -801,11 +808,11 @@ footer {
   }
 
   #games {
-    grid-column: 1 / -1; /* Prend toute la largeur */
+    grid-column: 1 / -1; 
     display: grid;
-    grid-template-columns: 1fr; /* Structure interne en 1 colonne */
+    grid-template-columns: 1fr;
   }
-  
+
   #heading h1 {
     margin-top: 110px;
   }
