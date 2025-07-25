@@ -20,7 +20,7 @@ body {
 
 nav {
   position: fixed;
-  height: 8vh;
+  height: 10vh;
   width: 100vw;
   background-color: black;
   border-bottom: 1px solid #272832;
@@ -802,7 +802,7 @@ footer {
   }
 
   #heading h2 {
-    margin-top: 130px;
+    margin-top: 100px;
   }
 
   nav a {
