@@ -20,7 +20,7 @@ body {
 
 nav {
   position: fixed;
-  height: 6vh;
+  height: 8vh;
   width: 100vw;
   background-color: black;
   border-bottom: 1px solid #272832;
@@ -799,7 +799,7 @@ footer {
   }
 
   #heading h2 {
-    margin-top: 190px;
+    margin-top: 150px;
   }
 
   nav a {
@@ -816,7 +816,7 @@ footer {
     width: 100vw;
     height: auto;
     aspect-ratio: 16 / 9;
-    max-height: 50vh;
+    max-height: 60vh;
   }
 
   .trailer_vid iframe {
