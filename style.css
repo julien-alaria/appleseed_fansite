@@ -808,12 +808,16 @@ footer {
     margin-top: 48px;
   }
 
-    nav {
+  nav {
   height: 8vh;
   }
 
   nav a {
     font-size: 9.5px;
+  }
+
+  .manga-info h2 {
+    font-size: 1.5rem;
   }
 }
 
