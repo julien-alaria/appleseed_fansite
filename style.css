@@ -18,10 +18,6 @@ body {
   overflow-x: hidden;
 }
 
-/* main p {
-  margin-top: 0.35em;
-} */
-
 nav {
   position: fixed;
   height: 6vh;
@@ -484,7 +480,6 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
- 
   nav {
     position: fixed;
     top: 0;
@@ -508,7 +503,7 @@ footer {
   }
 
   nav li {
-    flex-shrink: 1; 
+    flex-shrink: 1;
   }
 
   nav a {
@@ -700,103 +695,111 @@ footer {
   }
 }
 
-@media screen and (min-width: 1580px){
-  
-  #heading h1{
+@media screen and (min-width: 1580px) {
+  #heading h1 {
     margin-top: 70px;
     font-size: 100px;
   }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1579px){
-  
-  #heading h1{
+@media screen and (min-width: 1200px) and (max-width: 1579px) {
+  #heading h1 {
     margin-top: 70px;
     font-size: 100px;
+  }
+
+  #heading h2 {
+    margin-top: 30px;
   }
 }
 
-@media screen and (min-width: 757px) and (max-width: 1199px){
-  
-  #heading h1{
+@media screen and (min-width: 757px) and (max-width: 1199px) {
+  #heading h1 {
     margin-top: 70px;
     font-size: 100px;
   }
 
-  #heading h2{
+  #heading h2 {
     margin-top: 10px;
   }
 }
 
-@media screen and (min-width: 678px) and (max-width: 756px){
-  
-  #heading h1{
+@media screen and (min-width: 678px) and (max-width: 756px) {
+  #heading h1 {
     margin-top: 70px;
     font-size: 100px;
   }
 
-  #heading h2{
+  #heading h2 {
     margin-top: 50px;
   }
 }
 
-@media screen and (min-width: 604px) and (max-width: 677px){
-  
-  #heading h1{
+@media screen and (min-width: 604px) and (max-width: 677px) {
+  #heading h1 {
     margin-top: 100px;
     font-size: 80px;
   }
 
-  #heading h2{
+  #heading h2 {
     margin-top: 85px;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 603px){
-  
-  #heading h1{
+@media screen and (min-width: 606px) and (max-width: 603px) {
+  #heading h1 {
     margin-top: 130px;
     font-size: 80px;
   }
 
-  #heading h2{
-    margin-top: 115px;
+  #heading h2 {
+    margin-top: 115;
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 499px){
-  
-  #heading h1{
+@media screen and (min-width: 480px) and (max-width: 605px) {
+  #heading h1 {
     margin-top: 180px;
   }
-}
 
-@media screen and (min-width: 430px) and (max-width: 479px){
-  
-  #heading h1{
-    margin-top: 145px;
+  #heading h2 {
+    margin-top: 100px;
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 429px){
+@media screen and (min-width: 430px) and (max-width: 479px) {
+  #heading h1 {
+    margin-top: 180px;
+  }
+
+  #heading h2 {
+    margin-top: 185px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 429px) {
   .character-container,
   .media-container {
     grid-template-columns: 1fr;
   }
 
-  #heading h1{
+  #heading h1 {
     margin-top: 120px;
   }
 }
 
-@media screen and (max-width: 399px){
+@media screen and (max-width: 399px) {
   .character-container,
   .media-container {
     grid-template-columns: 1fr;
   }
 
-  #heading h1{
+  #heading h1 {
     margin-top: 110px;
+  }
+
+  #heading h2 {
+    margin-top: 190px;
   }
 
   nav a {
@@ -806,14 +809,14 @@ footer {
 
 @media (max-width: 800px) {
   .trailer {
-    height: auto; 
+    height: auto;
   }
 
   .trailer_vid {
     width: 100vw;
     height: auto;
     aspect-ratio: 16 / 9;
-    max-height: 50vh; 
+    max-height: 50vh;
   }
 
   .trailer_vid iframe {
@@ -821,5 +824,3 @@ footer {
     height: 100%;
   }
 }
-
-
