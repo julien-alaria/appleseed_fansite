@@ -783,7 +783,7 @@ footer {
   }
 
   .media-container {
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   #heading h1 {
@@ -797,7 +797,7 @@ footer {
   }
 
   .media-container {
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   #heading h1 {
@@ -815,14 +815,14 @@ footer {
 
 @media (max-width: 800px) {
   .trailer {
-    height: 60vh;
+    height: auto;
   }
 
   .trailer_vid {
     width: 100vw;
-    height: 60vh;
+    height: auto;
     aspect-ratio: 16 / 9;
-    max-height: 60vh;
+    max-height: 50vh;
   }
 
   .trailer_vid iframe {
