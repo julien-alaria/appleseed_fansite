@@ -809,18 +809,18 @@ footer {
   }
 
   nav a {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
 @media (max-width: 800px) {
   .trailer {
-    height: auto;
+    height: 60vh;
   }
 
   .trailer_vid {
     width: 100vw;
-    height: auto;
+    height: 60vh;
     aspect-ratio: 16 / 9;
     max-height: 60vh;
   }
