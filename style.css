@@ -805,7 +805,11 @@ footer {
   }
 
   #heading h2 {
-    margin-top: 20px;
+    margin-top: 30px;
+  }
+
+    nav {
+  height: 8vh;
   }
 
   nav a {
