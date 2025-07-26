@@ -873,7 +873,7 @@ footer {
     margin-top: 48px;
   }
 
-  #carroussel_section{
-    display: none;
+  #carroussel-container{
+    display: none !important;
   } 
 }
