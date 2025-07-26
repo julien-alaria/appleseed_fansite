@@ -873,7 +873,13 @@ footer {
     margin-top: 48px;
   }
 
-  #carroussel-container{
-    display: none !important;
-  } 
+   #caroussel_section {
+    display: none;
+  }
+
+  .caroussel-container {
+    height: 0;
+    overflow: hidden;
+  }
+  
 }
