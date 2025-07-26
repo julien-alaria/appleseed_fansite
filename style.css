@@ -874,11 +874,11 @@ footer {
   }
 
   .caroussel {
-    height: 70vh;
+    height: 300px;
   }
 
   .gallery {
-    animation-duration: 60s;
+    animation-duration: 200s;
   }
 
   .gallery li img {
