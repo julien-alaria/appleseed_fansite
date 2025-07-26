@@ -99,11 +99,6 @@ p {
   font-family: "Orbitron", sans-serif;
 }
 
-.no-tel {
-  -webkit-user-select: text;
-  -webkit-touch-callout: none;
-}
-
 .trailer {
   background-color: black;
   padding-bottom: 10px;
@@ -868,6 +863,10 @@ footer {
 @media (orientation: landscape) {
   nav {
     height: 48px;
+  }
+
+   nav a {
+    font-size: 8px;
   }
 
   .trailer {
