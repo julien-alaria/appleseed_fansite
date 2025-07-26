@@ -22,9 +22,10 @@ nav {
   position: fixed;
   height: 6vh;
   width: 100vw;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 1);
   border-bottom: 1px solid #272832;
   z-index: 11;
+  will-change: transform;
 }
 
 nav ul {
@@ -191,7 +192,6 @@ p {
 .gallery li {
   list-style: none;
   flex: 0 0 auto;
-  width: auto;
   border-radius: 1px;
   overflow: hidden;
 }
@@ -739,14 +739,25 @@ footer {
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 713px) {
+@media screen and (min-width: 645px) and (max-width: 713px) {
   #heading h1 {
     margin-top: 120px;
     font-size: 80px;
   }
 
   #heading h2 {
-    margin-top: 80px;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 644px) {
+  #heading h1 {
+    margin-top: 140px;
+    font-size: 80px;
+  }
+
+  #heading h2 {
+    margin-top: 70px;
   }
 }
 
@@ -788,11 +799,10 @@ footer {
   }
 
   #games {
-    grid-column: 1 / -1; 
+    grid-column: 1 / -1;
     display: grid;
     grid-template-columns: 1fr;
   }
-
 }
 
 @media screen and (max-width: 399px) {
@@ -805,7 +815,7 @@ footer {
   }
 
   #games {
-    grid-column: 1 / -1; 
+    grid-column: 1 / -1;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -819,7 +829,7 @@ footer {
   }
 
   nav {
-  height: 8vh;
+    height: 8vh;
   }
 
   nav a {
@@ -849,4 +859,3 @@ footer {
     height: 100%;
   }
 }
-
