@@ -312,7 +312,6 @@ p {
 
 #media_h2{
   padding: 5px;
-  background-color: yellow;
 }
 
 .mediaH2 {
@@ -885,6 +884,10 @@ footer {
   .caroussel-container {
     height: 0;
     overflow: hidden;
+  }
+
+  #media_h2{
+  padding: 15px;
   }
 
 }
