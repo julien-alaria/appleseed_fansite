@@ -728,7 +728,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 678px) and (max-width: 756px) {
+@media screen and (min-width: 714px) and (max-width: 756px) {
   #heading h1 {
     margin-top: 70px;
     font-size: 100px;
@@ -739,9 +739,9 @@ footer {
   }
 }
 
-@media screen and (min-width: 604px) and (max-width: 677px) {
+@media screen and (min-width: 600px) and (max-width: 713px) {
   #heading h1 {
-    margin-top: 100px;
+    margin-top: 120px;
     font-size: 80px;
   }
 
@@ -750,7 +750,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 603px) {
+@media screen and (min-width: 480px) and (max-width: 599px) {
   #heading h1 {
     margin-top: 180px;
   }
