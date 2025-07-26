@@ -865,12 +865,25 @@ footer {
     height: 48px;
   }
 
-   nav a {
+  nav a {
     font-size: 8px;
   }
 
   .trailer {
     margin-top: 48px;
   }
-}
 
+  .caroussel {
+    height: 70vh;
+  }
+
+  .gallery {
+    animation-duration: 60s;
+  }
+
+  .gallery li img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
+}
