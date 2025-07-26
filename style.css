@@ -831,7 +831,7 @@ footer {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 698px) {
   .trailer {
     height: auto;
     margin-top: 8vh;
@@ -849,3 +849,4 @@ footer {
     height: 100%;
   }
 }
+
