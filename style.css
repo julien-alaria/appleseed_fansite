@@ -695,14 +695,18 @@ footer {
   }
 }
 
-@media screen and (min-width: 1580px) {
+@media screen and (min-width: 1573px) {
   #heading h1 {
     margin-top: 70px;
     font-size: 100px;
   }
+
+  #heading h2 {
+    margin-top: 30px;
+  }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1579px) {
+@media screen and (min-width: 1200px) and (max-width: 1572px) {
   #heading h1 {
     margin-top: 70px;
     font-size: 100px;
@@ -841,6 +845,7 @@ footer {
 @media (max-width: 800px) {
   .trailer {
     height: auto;
+    margin-top: 8vh;
   }
 
   .trailer_vid {
