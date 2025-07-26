@@ -873,17 +873,7 @@ footer {
     margin-top: 48px;
   }
 
-  .caroussel {
-    height: 300px;
-  }
-
-  .gallery {
-    animation-duration: 200s;
-  }
-
-  .gallery li img {
-    height: 100%;
-    width: auto;
-    object-fit: contain;
-  }
+  #carroussel_section{
+    display: none;
+  } 
 }
