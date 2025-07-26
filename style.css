@@ -99,6 +99,11 @@ p {
   font-family: "Orbitron", sans-serif;
 }
 
+.no-tel {
+  -webkit-user-select: text;
+  -webkit-touch-callout: none;
+}
+
 .trailer {
   background-color: black;
   padding-bottom: 10px;
@@ -752,7 +757,7 @@ footer {
 
 @media screen and (min-width: 600px) and (max-width: 644px) {
   #heading h1 {
-    margin-top: 140px;
+    margin-top: 150px;
     font-size: 80px;
   }
 
@@ -859,3 +864,14 @@ footer {
     height: 100%;
   }
 }
+
+@media (orientation: landscape) {
+  nav {
+    height: 48px;
+  }
+
+  .trailer {
+    margin-top: 48px;
+  }
+}
+
