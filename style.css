@@ -941,7 +941,8 @@ footer {
   }
 
   #heading h2 {
-    margin-top: 190px;
+    /* margin-top: 190px; */
+    margin-top: 150px;
   }
 
   nav {
