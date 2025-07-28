@@ -710,28 +710,6 @@ footer {
   }
 }
 
-/* @media screen and (min-width: 1200px) and (max-width: 1572px) {
-  #heading h1 {
-    margin-top: 70px;
-    font-size: 100px;
-  }
-
-  #heading h2 {
-    margin-top: 30px;
-  }
-}
-
-@media screen and (min-width: 757px) and (max-width: 1199px) {
-  #heading h1 {
-    margin-top: 70px;
-    font-size: 100px;
-  }
-
-  #heading h2 {
-    margin-top: 80px;
-  }
-} */
-
 @media screen and (min-width: 1580px) {
   #heading h1 {
     margin-top: 70px;
@@ -761,28 +739,6 @@ footer {
   }
 }
 
-/* @media screen and (min-width: 714px) and (max-width: 756px) {
-  #heading h1 {
-    margin-top: 70px;
-    font-size: 100px;
-  }
-
-  #heading h2 {
-    margin-top: 80px;
-  }
-}
-
-@media screen and (min-width: 645px) and (max-width: 713px) {
-  #heading h1 {
-    margin-top: 120px;
-    font-size: 80px;
-  }
-
-  #heading h2 {
-    margin-top: 70px;
-  }
-} */
-
 @media screen and (min-width: 678px) and (max-width: 756px) {
   #heading h1 {
     margin-top: 70px;
@@ -793,18 +749,6 @@ footer {
     margin-top: 50px;
   }
 }
-
-
-/* @media screen and (min-width: 600px) and (max-width: 644px) {
-  #heading h1 {
-    margin-top: 150px;
-    font-size: 80px;
-  }
-
-  #heading h2 {
-    margin-top: 70px;
-  }
-} */
 
 @media screen and (min-width: 600px) and (max-width: 677px) {
   #heading h1 {
@@ -822,10 +766,6 @@ footer {
     margin-top: 180px;
   }
 
-  /* #heading h2 {
-    margin-top: 140px;
-  } */
-
   #heading h2 {
     margin-top: 80px;
   }
@@ -840,30 +780,6 @@ footer {
     margin-top: 185px;
   }
 }
-
-/* @media screen and (min-width: 400px) and (max-width: 429px) {
-  .character-container {
-    grid-template-columns: 1fr;
-  }
-
-  .media-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #heading h1 {
-    margin-top: 130px;
-  }
-
-  #heading h2 {
-    margin-top: 50px;
-  }
-
-  #games {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-} */
 
 @media screen and (min-width: 400px) and (max-width: 429px) {
   .character-container {
@@ -884,42 +800,6 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
-/* @media screen and (max-width: 399px) {
-  .character-container {
-    grid-template-columns: 1fr;
-  }
-
-  .media-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #games {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  #heading h1 {
-    margin-top: 110px;
-  }
-
-  #heading h2 {
-    margin-top: 48px;
-  }
-
-  nav {
-    height: 8vh;
-  }
-
-  nav a {
-    font-size: 9.5px;
-  }
-
-  .manga-info h2 {
-    font-size: 14px;
-  }
-} */
 
 @media screen and (max-width: 399px) {
   .character-containern {
