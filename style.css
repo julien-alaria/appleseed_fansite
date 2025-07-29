@@ -802,10 +802,10 @@ footer {
 }
 
 @media screen and (max-width: 399px) {
-  .character-containern {
+  .character-container {
     grid-template-columns: 1fr;
   }
-  
+
   .media-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -852,8 +852,15 @@ footer {
   }
 }
 
-@media (orientation: landscape) {
-  nav {
+@media (min-width: 700px) {
+  .gallery {
+    animation-duration: 60s;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 900px) {
+
+   nav {
     height: 48px;
   }
 
@@ -864,7 +871,6 @@ footer {
   .trailer {
     margin-top: 48px;
   }
-
   #caroussel_section {
     display: none;
   }
@@ -874,3 +880,4 @@ footer {
     overflow: hidden;
   }
 }
+
